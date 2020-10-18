@@ -1,8 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-const booksUrl = "http://127.0.0.1:8000/api/books/";
-const authorsUrl = "http://127.0.0.1:8000/api/authors/";
+const booksUrl = "https://lista-ksiazek.herokuapp.com/api/books/";
 
 function getCookie(name) {
   let cookieValue = null;
