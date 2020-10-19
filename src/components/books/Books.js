@@ -149,7 +149,6 @@ function Books() {
             <th scope="col">Autor</th>
             <th scope="col">Język</th>
             <th scope="col">Data publikacji</th>
-            <th scope="col"></th>
           </tr>
         </thead>
         <tbody>
@@ -165,17 +164,6 @@ function Books() {
                 {book.partial_date
                   ? book.published_date.substring(0, 4)
                   : book.published_date}
-              </td>
-              <td>
-                <NavLink
-                  to={`books/${book.id}`}
-                  className="btn btn-link btn-sm"
-                >
-                  <img
-                    src="https://img.icons8.com/material-sharp/16/000000/edit.png"
-                    alt="edit"
-                  />
-                </NavLink>
               </td>
             </tr>
           ))}

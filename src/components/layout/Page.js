@@ -7,8 +7,6 @@ class Page extends Component {
     return (
       <Switch>
         <Route path="/" exact component={Books} />
-        {/* <Route path="/task/add/" exact component={Form} />
-        <Route path="/task/:taskId/" component={Task} /> */}
       </Switch>
     );
   }
