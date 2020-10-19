@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import Header from "./components/layout/Header";
