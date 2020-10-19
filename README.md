@@ -1,5 +1,5 @@
-# Lista książek z wykorzystaniem React
+## Lista książek z wykorzystaniem React
 
-Ten projekt jest warstwą frontendową dla aplikacj book_list 
-git: ```https://github.com/gothaur/book_list```
-```https://lista-ksiazek.herokuapp.com/```
+Ten projekt jest warstwą frontendową dla aplikacj book_list dostępnej pod [tym](https://lista-ksiazek.herokuapp.com/) adresem
+
+[link](https://github.com/gothaur/book_list) do repozytorium
